@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 刘鹏--博客
+subtitle: Just do it ! Do better!
 description:
 keywords:
-author: John Doe
-language:
+author: KlausPeng
+language: zh-Hans
 timezone:
 
 # URL
@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
   
