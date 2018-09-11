@@ -1,1 +1,1 @@
-hexo clean && hexo g && hexo s
+rmdir /s/q .deploy_git && hexo clean && hexo g && hexo s
