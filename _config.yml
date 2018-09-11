@@ -80,3 +80,23 @@ theme: melody
 deploy:
   type: git
   repo: git@github.com:klauspeng/klauspeng.github.io.git
+
+#七牛云存储设置
+qiniu:
+  offline: false
+  sync: true
+  bucket: blog
+  access_key: AccessKey
+  secret_key: SecretKey
+  dirPrefix: static
+  urlPrefix: http://otfiq2zfh.bkt.clouddn.com/static
+  up_host: http://upload.qiniu.com
+  local_dir: static
+  update_exist: true
+  image:
+    folder: images
+    extend:
+  js:
+    folder: js
+  css:
+    folder: css
