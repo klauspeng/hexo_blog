@@ -1,7 +1,5 @@
 ---
 title: Hexo - 七牛云存储
-tags:
-  - hexo
 categories: hexo
 ---
 

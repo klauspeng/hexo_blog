@@ -1,8 +1,5 @@
 ---
 title: PHP日志
-tags:
-  - php
-  - log
 categories: php
 ---
 # PHP日志
