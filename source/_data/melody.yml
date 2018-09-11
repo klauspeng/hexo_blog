@@ -115,7 +115,7 @@ cdn:
 # ---------------
 avatar: http://www.liup.win/usr/themes/GreenGrapes/img/head.jpg
 
-top_img: http://otfiq2zfh.bkt.clouddn.com/bg.jpg # false or url of img
+top_img: http://otfiq2zfh.bkt.clouddn.com/static/images/blog/top_img.jpg # false or url of img
 
 post_meta:
   date_type: created # created or updated
