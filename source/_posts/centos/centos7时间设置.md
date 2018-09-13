@@ -1,6 +1,6 @@
 ---
 title: Centos7时间设置
-categories: Centos
+categories: centos
 ---
 # Centos 7 时间设置 timedatectl
 
