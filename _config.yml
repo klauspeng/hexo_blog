@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace:
   
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: melody
+theme: hexo-theme-melody
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -86,8 +86,8 @@ qiniu:
   offline: false
   sync: true
   bucket: blog
-  access_key: AccessKey
-  secret_key: SecretKey
+  access_key: oFfY7dW6G9tIIsKCt4wiv9scM4_qxfktOUZttWzP
+  secret_key: iR09wZpLpVBKLkCogt7iuSmEQFGkOnW6pTeVpWdT
   dirPrefix: static
   urlPrefix: http://otfiq2zfh.bkt.clouddn.com/static
   up_host: http://upload.qiniu.com

@@ -16,7 +16,6 @@ menu:
   主页: /
   文章: /archives
   分类: /categories
-  #XXX: /xxx
 
 # Favicon
 # use my-favicon.ico to avoid duplicate favicon of melody theme
@@ -43,7 +42,7 @@ pwa:
 highlight_theme: default
 
 # code_word_wrap: true or false
-code_word_wrap: true
+code_word_wrap: false
 # Nav settings
 # ---------------
 #social:
