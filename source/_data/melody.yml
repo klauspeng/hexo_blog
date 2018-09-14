@@ -20,7 +20,7 @@ menu:
 # Favicon
 # use my-favicon.ico to avoid duplicate favicon of melody theme
 # ---------------
-favicon: /my-favicon.ico
+favicon: /favicon.ico
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -111,7 +111,7 @@ cdn:
 
 # Post info settings
 # ---------------
-avatar: http://www.liup.win/usr/themes/GreenGrapes/img/head.jpg
+avatar: http://otfiq2zfh.bkt.clouddn.com/static/images/blog/klauspeng.jpg
 
 top_img: http://otfiq2zfh.bkt.clouddn.com/static/images/blog/top_img.jpg # false or url of img
 
