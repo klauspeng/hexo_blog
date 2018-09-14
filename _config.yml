@@ -86,8 +86,8 @@ qiniu:
   offline: false
   sync: true
   bucket: blog
-  access_key: oFfY7dW6G9tIIsKCt4wiv9scM4_qxfktOUZttWzP
-  secret_key: iR09wZpLpVBKLkCogt7iuSmEQFGkOnW6pTeVpWdT
+  access_key: AccessKey
+  secret_key: SecretKey
   dirPrefix: static
   urlPrefix: http://otfiq2zfh.bkt.clouddn.com/static
   up_host: http://upload.qiniu.com
@@ -100,3 +100,7 @@ qiniu:
     folder: js
   css:
     folder: css
+
+search:
+  path: search.xml
+  field: post
