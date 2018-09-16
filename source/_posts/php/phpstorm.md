@@ -1,7 +1,7 @@
 ---
 title: PHPStorm 常用配置及问题
 date: 2017/6/30
-categories: 
+categories: php
 ---
 
 ## 设置Terminal字体
