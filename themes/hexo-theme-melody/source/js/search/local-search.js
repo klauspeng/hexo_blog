@@ -74,7 +74,7 @@ $(function () {
             var indexTitle = -1
             var indexContent = -1
             // only match artiles with not empty titles and contents
-            if (dataTitle !== '' && dataContent !== '') {
+            if (dataTitle !== '') {
               keywords.forEach(function (keyword, i) {
                 indexTitle = dataTitle.indexOf(keyword)
                 indexContent = dataContent.indexOf(keyword)
