@@ -45,7 +45,8 @@ highlight_theme: default
 code_word_wrap: false
 # Nav settings
 # ---------------
-#social:
+social:
+  github: https://github.com/klauspeng
   #icon_name: url
 
 # Algolia search
