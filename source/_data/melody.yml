@@ -114,7 +114,7 @@ cdn:
 # ---------------
 avatar: http://otfiq2zfh.bkt.clouddn.com/static/images/blog/klauspeng.jpg
 
-top_img: http://otfiq2zfh.bkt.clouddn.com/static/images/blog/top_img.jpg # false or url of img
+top_img: http://otfiq2zfh.bkt.clouddn.com/static/images/blog/top_img_small.jpg # false or url of img
 
 post_meta:
   date_type: created # created or updated
