@@ -4,6 +4,9 @@ date: 2016/9/18
 categories: centos
 ---
 
+VirtrualBox安装虚拟机并配置网络，主要是静态IP，整个局域网均可访问！
+<!-- more -->
+
 ## VirtrualBox安装Centos6.8 minimal
 VirtrualBox新建个虚拟机配置好内存以及硬盘大小，安装即可；
 

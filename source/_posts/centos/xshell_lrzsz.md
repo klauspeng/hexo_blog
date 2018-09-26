@@ -4,6 +4,9 @@ date: 2018/5/7
 categories: centos
 ---
 
+下载上传文件的时候老得用xftp，可不可以直接xshell上传下载呢？
+<!-- more -->
+
 需先安装 `yum install lrzsz -y`
 ### 下载文件到本地
 `sz file`就会弹出保存本地的对话框
