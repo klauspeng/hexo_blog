@@ -1,8 +1,11 @@
 ---
 title: Centos7时间设置
+date: 2018/8/8
 categories: centos
 ---
-# Centos 7 时间设置 timedatectl
+
+Centos 7 时间设置 timedatectl
+<!-- more -->
 
 1. `date`命令查看时间及时区
 2. `timedatectl [status]`命令查看时区及时间

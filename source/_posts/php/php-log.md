@@ -1,8 +1,12 @@
 ---
 title: PHP日志
+date: 2017/6/1
 categories: php
 ---
-# PHP日志
+
+分析PHP日志函数及常用框架的日志封装。
+<!-- more -->
+
 ## PHP自带
 ### error_log
 > bool error_log ( string $message [, int $message_type = 0 [, string $destination [, string $extra_headers ]]] )
