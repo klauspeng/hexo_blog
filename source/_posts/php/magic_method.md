@@ -229,3 +229,72 @@ $person = new Person('小明'); // 初始赋值
 var_dump(serialize($person));
 var_dump(unserialize(serialize($person)));
 ```
+
+## 魔术常量
+```php
+<?php
+/**
+ * Created by crontabMonitor.
+ * User: Liupeng
+ * Date: 2018-10-10 16:05
+ */
+
+namespace Hi;
+
+echo __LINE__, PHP_EOL; # 10
+
+echo __FILE__, PHP_EOL; # /mnt/hgfs/workspace/crontabMonitor/Person.php
+
+echo __DIR__, PHP_EOL; # /mnt/hgfs/workspace/crontabMonitor
+
+function say()
+{
+    echo __FUNCTION__, PHP_EOL; # Hi\TraitTest
+}
+
+trait TraitTest
+{
+    public static function getTrait()
+    {
+        echo __TRAIT__, PHP_EOL;
+    }
+}
+
+TraitTest::getTrait(); # Hi\TraitTest
+
+class ConstantsPredefined
+{
+    /**
+     * 获取类名称
+     */
+    public function getClass()
+    {
+        echo __CLASS__, PHP_EOL; # Hi\ConstantsPredefined
+    }
+
+    /**
+     * 方法名
+     */
+    public function getMethod()
+    {
+        echo __FUNCTION__, PHP_EOL; # getMethod
+        echo __METHOD__, PHP_EOL; # Hi\ConstantsPredefined::getMethod
+    }
+
+    /**
+     * 获取命名空间
+     */
+    public function getNameSpace()
+    {
+        echo __NAMESPACE__, PHP_EOL; # Hi
+    }
+
+}
+
+$constantsPredefined = new \Hi\ConstantsPredefined();
+$constantsPredefined->getClass();
+$constantsPredefined->getMethod();
+$constantsPredefined->getNameSpace();
+```
+
+记忆`dir/file/line/namesapace/class/method/trait/function`
