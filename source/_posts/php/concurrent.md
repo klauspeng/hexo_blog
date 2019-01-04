@@ -16,7 +16,7 @@ categories: php
 用memcache的原子性，根据请求的参数去生成key，再来就判断有没有，有就返回处理中
 
 效果如下：
-{% qnimg php/concurrent.png %}
+![](/php/concurrent.png)
 
 可以看到第一次请求，还没返回，第二次请求就过来了，第二次请求就返回正在处理中，第三次也是与第二次相同，这时候返回第一次的处理，处理成功
 

@@ -15,5 +15,4 @@ categories: hexo
 {% qnimg timg.jpg %}
 ```
 
-## 效果
-{% qnimg timg.jpg %}
+得有自己的域名，要不然一个月一换，很麻烦
